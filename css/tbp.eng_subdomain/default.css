@@ -1,0 +1,16 @@
+.blog-footer {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #000000;
+	color: #FFFFFF;
+	background: url('img/banner.jpg') no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.5);
+	background-position: center 50%;
+}
