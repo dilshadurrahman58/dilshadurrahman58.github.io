@@ -1,0 +1,74 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="../gtag/js_id_UA-64337896-2.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-64337896-2');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Sulav Malla, Sulav, Malla, University of South Florida, Nepal, USF">
+    <title>Sulav Malla</title>
+    <link rel="StyleSheet" href="../_sulavmalla/sulav_malla_files/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather|Arvo:400,700|Roboto' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../_sulavmalla/sulav_malla_files/code/p5.min.js"></script>
+    <script src="../_sulavmalla/sulav_malla_files/code/forceDirectedGraph.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header class="site-header">
+    <nav class="site-main-navigation">
+        <a href="../index.html" class="navigation-link">About Me</a>
+        <a href="../_sulavmalla/research.html" class="navigation-link">Research</a>
+        <a href="../_sulavmalla/teaching.html" class="navigation-link">Teaching</a>
+        <a href="../_sulavmalla/project.html" class="navigation-link">Projects</a>
+    </nav>
+    </header>
+    <div class="content-body">
+    <div class="content-body-shading">
+    <div class="profile-pic">
+    <img src="../_sulavmalla/sulav_malla_files/sulav_malla.jpg" alt="Sulav Malla">
+    </div>
+    <div class="section-name-contact">   
+    <p class="my-name"><b><a href="../eng_subdomain/_sulavmalla.html" class="my-name-header">Sulav Malla</a></b></p>
+    <p><a href="../cse_subdomain/index.html">Dept. of Computer Science and Engineering</a><br>
+    <a href="../www_subdomain/index.html">University of South Florida</a><br>
+    Tampa, Florida 33620<br><br>
+    <b>Email: </b><a href="mailto: sulavmalla@mail.usf.edu">sulavmalla@mail.usf.edu</a><br><br>
+    <a href="./sulav_malla_files/SulavMallaCV.pdf">Curriculum Vitae</a> | <a href="https://www.linkedin.com/in/sulav-malla/">LinkedIn</a></p><br>
+    </div>
+    <div class="section-main">
+    <h2 id="project">Projects</h2>
+    <br>
+    <div style="display: block; margin: auto; width:560px; height:360px;" id="fdg-sketch"></div>
+    <p style="text-align:center">Try dragging the nodes around</p>
+    <p style="font-family: 'Arvo', serif;"><strong>Force Directed Graph</strong></p>
+    <p>As part of a project in my Data Visualization class, I had made a force directed graph of a dataset that contained character coappearence in Victor Hugo's Les Miśerables, compiled by Donald Knuth. As seen above, these graphs are interactive, aesthetically pleasing, and often reveal structures in the network. You can try dragging the nodes around in the above graph.</p>
+    <p><strong>Tools used</strong>: Processing, p5.js</p>
+    <p><a href="./sulav_malla_files/code/ForceDirectedGraph.zip">code</a></p>
+    <br>
+    <p style="font-family: 'Arvo', serif;"><strong>Deep Feature vs Traditional Feature for Bone Texture Characterization</strong></p>
+    <p>Osteoporosis can be identified by looking at 2D x-ray images of the bone. The high degree of similarity between images of a healthy bone and a diseased one makes classification a challenge. A good bone texture characterization technique is essential for identifying osteoporosis cases. Standard texture feature extraction techniques like Local Binary Pattern (LBP), Gray Level Co-occurrence Matrix (GLCM), Law's etc. have been used for this purpose. In this project, we draw a comparison between deep features extracted from convolution neural network against these traditional features. Our results show that deep features have more discriminative power as classifiers trained on them always outperform the ones trained on traditional features.</p>
+    <p><strong>Tools used</strong>: Weka, MatConvNet, MATLAB, python</p>
+    <p><a href="./sulav_malla_files/papers/osteoporosis_report.pdf">project report</a></p>
+    <br>
+    <p style="font-family: 'Arvo', serif;"><strong>A Faster Parallel Algorithm for Analyzing Drug-Drug Interaction from MEDLINE Database</strong></p>
+    <p>Use of multiple medications can have hazardous effect on health due to Drug-Drug interaction (DDI). MEDLINE database contains many articles related to DDI and a random-sampling-based algorithm has been purposed to automatically identify DDI by reading the substance field of MEDLINE records. However, this single threaded algorithm cannot fully utilize the processing capability of multi-core processors that are common today. As the number of cores in a single processor continue to rise, a parallel program that can better utilize these resources at hand become increasingly important. In this project, we introduce a parallel version of the existing algorithm that can run on multiple cores simultaneously, making the computation faster. Experimental results on same hardware show that calculations done using our parallel multi-threaded program is up to 19 times faster compared to the original single threaded one.</p>
+    <p><strong>Tools used</strong>: python, C++, OpenMP, Intel VTune Amplifier, Intel compilers</p>
+    <p><a href="./sulav_malla_files/papers/ddi_report.pdf">project report</a></p>
+    <p><a href="./sulav_malla_files/code/MultiThreaded.zip">code</a></p>
+    <br>
+    <footer>
+        <p class="footer-note">
+        This page was last updated on: November 14, 2018 
+        </p>
+    </footer>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
